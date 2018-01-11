@@ -547,3 +547,23 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+#email-button {
+    background-color: #18BC9C; /* Green */
+    border: none;
+    color: white
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#email-button:hover {
+    background-color: #0f715d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
