@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* =========== Premier league color pallete ================ */
+
+/* #F2055C */
+/* #EAF205  */
+/* #05F26C */
+/* #07F2F2 */
+/* #340040 */
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    background: url("images/soccer-game.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ================== Header ================== */
+
+header {
+    height: 75px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.3em;
+    min-width: 700px;
+}
+
+header li, p{
+    font-family: monospace;
+    color: white;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+
+header span {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#pl1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#pl2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* ================= Menyene ================= */
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#menu {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    transform: translateY(150%);
+    margin: 0 auto;
+    opacity: 0.9;
+    border: 1px solid black;
+    background-color: rgba(250,250,250, 0.8);
+    color: black;
+    font-size: 1em;
+    font-family: monospace;
+}
+
+#board-size {
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 2px;
+
+}
+
+#menu li{
+    list-style-type: none;
+}
+
+#menu div{
+    width: 50%;
+    padding: 5px;
+    transform: translateX(75px);
+    margin: 15px 0;
+    background-color: rgba(250,250,250, 0.8);
+    border: 1px solid black;
+}
+
+#menu div:hover, div:focus {
+    background-color: rgba(250,250,250, 0.6);
+}
+
+#menu #start-btn {
+    margin-top: 30px;
+}
+
+ /* select button */
+#board-size {
+    padding: 5px;
+}
+
+/* ================= Spillbrettet ================ */
+
+#cardboard {
+    min-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    border: 3px solid black;
+    float: left;
+    margin: 5px;
+}
+
+.front {
+    background-color: #F2055C;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.back{
+    background-color: #340040;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.clear-left {
+    clear: left;
+}
+
+audio {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
