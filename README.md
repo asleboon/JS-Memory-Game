@@ -1,4 +1,4 @@
-Assignment 5
+Simple Memory Game
 ============
 
-Add your files here.  The page should be called `index.html`.
+Assignment from my course in WebDev.
